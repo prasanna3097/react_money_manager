@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+}
+.image {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+.balance-text {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.balance-amount {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  align-items: center;
+}
+.income-text {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.income-amount {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  align-items: center;
+}
+.expenses-text {
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.expenses-amount {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-left: 5px;
+}
